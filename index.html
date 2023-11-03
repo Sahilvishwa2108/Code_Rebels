@@ -1,35 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
     <title>Sarthak.com</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="Assets/favicon.png">
 </head>
+
 <body>
     <header>
-        <nav class="nav-bar">
-            <div class="nav-logo" id="home">
-                <a onClick="scrollToHome()"><img src="Assets/Logo.png" alt=""></a>
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="Assets/nav-logo.jpg" alt="nav-logo" height="50px">
             </div>
-            <div class="nav-right">
+            <div class="nav-items">
                 <ul>
-                    <li><a onClick="scrollToHome()">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#WhoWeAre">Who We Are</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#login">Login</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Who we are</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Notifications</a></li>
                 </ul>
             </div>
-        </nav>
+        </div>
     </header>
     <main>
-        
+        <section class="hero-section">
+            <div class="slide-show-container">
+                <img id="slide1" class="slide-image" src="Assets/slide1.jpg" alt="slide1">
+                <img id="slide2" class="slide-image" src="Assets/slide2.jpg" alt="slide2">
+            </div>
+        </section>
+        <section>
+            <h1 class="whoWeAre-Heading">Who We Are</h1>
+            <div class="whoWeAre-container">
+                <div class="whoWeAre-image">
+                    <img src="Assets/whoWeAre.png" alt="whoWeAre.png">
+                </div>
+                <div class="whoWeAre-info">
+                    <p class="whoWeAre-data">SARTHAK  is a forward-thinking financial institution with a deep commitment to fostering the growth of small-scale industries and startups. We understand the challenges these businesses face when seeking initial investments, and we're here to change the game.</p>
+                <button>Learn more</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="whoWeAre-Heading">Contact Us</h1>
+            <div class="whoWeAre-container">
+                <div class="whoWeAre-info">
+                    <p class="whoWeAre-data">Ready to take the next step in your entrepreneurial journey? Contact SARTHAK today to explore how we can help you secure initial investments without the burden of high-interest rates, collaterals, or paperwork.
+                    Join us in reshaping the future of funding, one entrepreneur at a time. SARTHAK is here to make your financial dreams a reality.</p>
+                <button>Click here</button>
+                </div>
+                <div class="whoWeAre-image">
+                    <img src="Assets/contact-us.png" alt="whoWeAre.png">
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="whoWeAre-Heading">know more</h1>
+            <div class="whoWeAre-container">
+                <div class="whoWeAre-image">
+                    <img src="Assets/whoWeAre.png" alt="whoWeAre.png">
+                </div>
+                <div class="whoWeAre-info">
+                    <p class="whoWeAre-data">SARTHAK  is a forward-thinking financial institution with a deep commitment to fostering the growth of small-scale industries and startups. We understand the challenges these businesses face when seeking initial investments, and we're here to change the game.</p>
+                <button>Learn more</button>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="footer-main">
+            <div class="left-foot">
+                <div class="footer-logo">
+                    <img src="Assets/nav-logo.jpg" alt="">
+                </div>
+                <div class="tagline">
+                    <p>"Empowering Dreams, Fueling Growth: Bridging Finance for Small Businesses"</p>
+                </div>
+                <a href="https://instagram.com/geeksspire"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/company/geeksspire/"><i class="fa fa-linkedin"aria-hidden="true"></i></a>
+            </div>
+            <div class="whatWeOffer">
+                <ul>
+                    <li>
+                        <h3>What We Offer?</h3>
+                    </li>
+                    <li>Funding</li>
+                    <li>Search for Investors</li>
+                </ul>
+            </div>
+            <div class="whoWeAre">
+                <ul>
+                    <li>
+                        <h3>Company Overview</h3>
+                    </li>
+                    <li>Mission & Vision</li>
+                    <li>Sarthak Team</li>
+                </ul>
+            </div>
+            <div class="right-foot">
+                <form action="#">
+                    <h3>Newsletter</h3>
+                    <input type="email" placeholder="Email address">
+                    <button>Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-down">
+            <p>Copyright &copy; 2023 All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
 </body>
+
 </html>
