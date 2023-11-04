@@ -31,6 +31,14 @@
 .nav-items ul li a{
     text-decoration: none;
     font-size: 1.25rem;
+    color: #000;
+    font-weight: 400;
+}
+.nav-items ul li button{
+    border: 2px solid red;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
 }
 
 
@@ -85,27 +93,27 @@
   }
   
   #section_5 > div:first-child {
-    background: url("https://dpskidszone.org/bhopal/wp-content/uploads/2018/10/time-table.jpg")
+    background: url("Assets/wideNetwork.jpg")
       no-repeat center center/cover;
   }
   #section_5 > div:nth-child(2) {
-    background: url("https://dpskidszone.org/bhopal/wp-content/uploads/2018/10/academic-calendar.jpg")
+    background: url("Assets/trust.jpg")
       no-repeat center center/cover;
   }
   #section_5 > div:nth-child(3) {
-    background: url("https://dpskidszone.org/bhopal/wp-content/uploads/2018/10/extra-350x250.jpg")
+    background: url("Assets/easyFin.jpg")
       no-repeat center center/cover;
   }
   #section_5 > div:nth-child(4) {
-    background: url("https://dpskidszone.org/bhopal/wp-content/uploads/2019/10/dpskidszone-bhopal.jpg")
+    background: url("Assets/easyFin.jpg")
       no-repeat center center/cover;
   }
   #section_5 > div:nth-child(5) {
-    background: url("https://dpskidszone.org/bhopal/wp-content/uploads/2022/10/fee-structure-23-24.jpg")
+    background: url("Assets/easyFin.jpg")
       no-repeat center center/cover;
   }
   #section_5 > div:last-child {
-    background: url("https://dpskidszone.org/bhopal/wp-content/uploads/2018/10/bus-service-small-350x250.jpg")
+    background: url("Assets/easyFin.jpg")
       no-repeat center center/cover;
   }
   

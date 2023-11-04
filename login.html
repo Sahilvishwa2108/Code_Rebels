@@ -1,18 +1,114 @@
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
 
-<title>Login</title>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Login.css" />
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-
-<form action="login.php" method="POST" align="center">
-<br>
-Username:<input type="text" name="username"><br><br><br>
-Password :<input type="text" name="password"><br><br>
-
-<input type="Submit"  value="Submit">
-
-</form>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="Assets/nav-logo.jpg" alt="nav-logo" height="50px">
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Who we are</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><button><a href="login.html">Login</a></button></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="login-form">
+                <h2>LOGIN</h2>
+                <form action="">
+                    <div class="form-group">
+                        <label for="email">Email or Mobile:</label>
+                        <input type="email phone" id="email" name="email" placeholder="Enter E-mail or Mobile"
+                            required />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Enter password" required />
+                    </div>
+                    <div class="form-options">
+                        <a href="#">Forgot Password?</a>
+                        <button class="login-btn" type="submit">Login</button>
+                    </div>
+                </form>
+                <div class="signup-link">
+                    Don't have an account?
+                    <a href="signup.html"><span id="element6"></span></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-main">
+            <div class="left-foot">
+                <div class="footer-logo">
+                    <img src="Assets/nav-logo.jpg" alt="">
+                </div>
+                <div class="tagline">
+                    <p>"Empowering Dreams, Fueling Growth: Bridging Finance for Small Businesses"</p>
+                </div>
+            </div>
+            <div class="whatWeOffer">
+                <ul>
+                    <li>
+                        <h3>What We Offer?</h3>
+                    </li>
+                    <li>Funding</li>
+                    <li>Search for Investors</li>
+                </ul>
+            </div>
+            <div class="whoWeAre">
+                <ul>
+                    <li>
+                        <h3>Company Overview</h3>
+                    </li>
+                    <li>Mission & Vision</li>
+                    <li>Sarthak Team</li>
+                </ul>
+            </div>
+            <div class="right-foot">
+                <form action="#">
+                    <h3>Newsletter</h3>
+                    <input type="email" placeholder="Email address">
+                    <button>Submit
+                    </button>
+                </form>
+                <div class="social-icons">
+                    <a href="https://instagram.com/geeksspire"><i
+                            class="fa fa-instagram social-handles" aria-hidden="true"></i></a>
+                    <a href="https://whatsapp.com/channel/0029VaAQ6BdIiRp0P0NbhF15"><i
+                            class="fa fa-whatsapp social-handles" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/company/geeksspire/"><i
+                            class="fa fa-linkedin social-handles" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-down">
+            <p>Copyright &copy; 2023 All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="login.js"></script>
 </body>
+
 </html>
