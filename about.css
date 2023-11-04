@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-image img {
+    /* position: relative; */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    
+    object-position: -30%, 0%;
+    object-fit: cover;
+}
+
+.about-image-text {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5rem;
+    margin-left: 4rem;
+    top: 12rem;
+    animation: slideTextFromBottom 2s ease, fadeIn 2s ease;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.hidden {
+    display: block;
+}
+
+@keyframes slideTextFromBottom {
+    0% {
+        bottom: -100%;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.home-image-text {
+    position: absolute;
+    color: rgb(90, 125, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    margin-left: 7rem;
+    top: 9rem;
+}
+
+.home-image-text a {
+    text-decoration: none;
+    color: rgb(203, 194, 194);
+}
+.about-heading{
+    display: flex;
+    justify-content: center;
+}
