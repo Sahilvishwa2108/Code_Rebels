@@ -63,27 +63,27 @@ header{
   }
   
   #section_5 > div:first-child {
-    background: url("Assets/services.jpg")
+    background: url("Assets/videoConferencing1.jpg")
       no-repeat center center/cover;
   }
   #section_5 > div:nth-child(2) {
-    background: url("Assets/one2one.jpg")
+    background: url("Assets/presentation2.jpg")
       no-repeat center center/cover;
   }
   #section_5 > div:nth-child(3) {
-    background: url("Assets/one2one.jpg")
+    background: url("Assets/crowdFunding.jpg")
       no-repeat center center/cover;
   }
   #section_5 > div:nth-child(4) {
-    background: url("Assets/one2one.jpg")
+    background: url("Assets/microFinance.webp")
       no-repeat center center/cover;
   }
   #section_5 > div:nth-child(5) {
-    background: url("Assets/one2one.jpg")
+    background: url("Assets/revenue.jpg")
       no-repeat center center/cover;
   }
   #section_5 > div:last-child {
-    background: url("Assets/one2one.jpg")
+    background: url("Assets/meeting2.jpg")
       no-repeat center center/cover;
   }
   
@@ -92,7 +92,7 @@ header{
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: rgba(0, 255, 255,0.2);
+    background-color: rgba(0, 255, 255,0.6);
     display: flex;
     flex-direction: column;
     padding: 1rem 2rem;
@@ -118,9 +118,13 @@ header{
   }
   
   #section_5 > div > div a {
-    color:aliceblue;
+    color: black;
     line-height: 4;
     width: fit-content;
+    font-weight: 900;
+    font-size: 1rem;
+    /* text-decoration: none; */
+
   }
   
   #section_5 > div > div a:hover {

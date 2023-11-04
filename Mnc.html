@@ -4,23 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MNC portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="contact.css">
     <style>
         .mnc-cards{
             height: 250px;
             display: flex ;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
-            
-        }
-        .category-card{
             overflow: hidden;
+            transform: translate(0px,9rem);
+           
+        }
+        .sector-card{
+            overflow: hidden;
+            margin-left: 15rem;
+            width: 100%;
+            border: 3px solid none;
+            border-radius: 15px;
+        }
+        .sector-card:hover{
+            opacity: 0.7;
         }
         .valuation-card{
             width: 100%;
-            scale: 50%;
+            border: 3px solid none;
+            border-radius: 15px;
+            scale: 60%;
 
+        }
+        .valuation-card:hover{
+            opacity: 0.7;
+        }
+        .sector-tags{
+            position: absolute;
+            font-size: 1.5rem;
+            font-weight: 800;
+            top: 4rem;
+            left: 20rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* align-items: center; */
+        }
+        .sector-tags a{
+            text-decoration: none;
+            color: black;
+            text-shadow: 0 0 15px grey;
+            line-height: 2.5rem;
         }
     </style>
 
@@ -29,7 +64,7 @@
     <header>
         <div class="nav-bar">
             <div class="nav-logo">
-                <img src="Assets/nav-logo.jpg" alt="nav-logo" height="50px">
+                <img src="Assets/main-logo.jpg" alt="nav-logo" height="50px">
             </div>
             <div class="nav-items">
                 <ul>
@@ -52,17 +87,30 @@
                 </div>
             </div> </div></main>
             <div class="mnc-cards">
-                <div class="category-card" >
-                    <img src="https://tse4.mm.bing.net/th?id=OIP.4EhlW-tnvadbTNlN5n8q6AHaHa&pid=Api&P=0&h=180" alt="">
+                
+                <div class="sector-card" >
+                    <img src="Assets/sector.jpeg" alt="">
+                    <ul class="sector-tags">
+                        <li><a href="">EdTech</a></li>
+                        <li><a href="">Health</a></li>
+                        <li><a href="">Finance</a></li>
+                    </ul>
                 </div>
                 <div class="valuation-card">
-                    <img src="https://revenuearchitects.com/wp-content/uploads/2017/01/revenuemetrics.png" alt="">
+                    <img src="Assets/valuation1.jpg" alt="">
+                    <ul class="sector-tags">
+                        <li><h3>Range: </h3></li>
+                        <li><a href="">&#8377;0-10Cr.</a></li>
+                        <li><a href="">&#8377;10-30Cr.</a></li>
+                        <li><a href="">&#8377;30-50Cr.</a></li>
+                    </ul>
                 </div>
             </div>
-            <div><br><br><br><br><br><br><br><br><br><br>
+            <div>
             <img src="Assets/Sarthak.png" style="width: 100%;
             height: 500px;
             object-fit: cover;" alt="sarthak-img"></div>
+
             <footer>
                 <div class="footer-main">
                     <div class="left-foot">
@@ -98,14 +146,14 @@
                             <button>Submit
                             </button>
                         </form>
-                        <div class="social-icons">
-                            <a href="https://instagram.com/geeksspire"><i
-                                    class="fa fa-instagram social-handles" aria-hidden="true"></i></a>
-                            <a href="https://whatsapp.com/channel/0029VaAQ6BdIiRp0P0NbhF15"><i
-                                    class="fa fa-whatsapp social-handles" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/company/geeksspire/"><i
-                                    class="fa fa-linkedin social-handles" aria-hidden="true"></i></a>
-                        </div>
+                            <!-- <div class="social-icons">
+                                <a href="https://instagram.com/geeksspire"><i
+                                        class="fa fa-instagram social-handles" aria-hidden="true"></i></a>
+                                <a href="https://whatsapp.com/channel/0029VaAQ6BdIiRp0P0NbhF15"><i
+                                        class="fa fa-whatsapp social-handles" aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/company/geeksspire/"><i
+                                        class="fa fa-linkedin social-handles" aria-hidden="true"></i></a>
+                            </div> -->
                     </div>
                 </div>
                 <div class="footer-down">

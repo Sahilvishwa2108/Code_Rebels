@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Code Rebel Hackathon Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Code Rebel Logo](main-logo.jpg)
 
-## Available Scripts
+Welcome to the Code Rebel team's hackathon project repository. Our project, named "Sarthak.com," is a web-based application designed to revolutionize the way businesses and consumers interact with digital content. In this README file, you will find essential information about the project, team members, setup instructions, usage, contribution guidelines, and licensing.
 
-In the project directory, you can run:
+## Team Members
 
-### `npm start`
+- **Team Leader:** Ravi Baraskar (CSE)
+- **Member 2:** Sahil Vishwakarma (CSE)
+- **Member 3:** Shivam Kumar (CSE)
+- **Member 4:** Ramkrishna Dangi (IOT)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Our project is an innovative web application developed as part of the Code Rebel hackathon. Sarthak.com addresses the pressing challenges faced by small emerging startups and large-scale MNCs. These challenges include securing initial investments, accessing crucial financial resources without the burden of high-interest rates, collaterals, or excessive paperwork. By streamlining the financial process, Sarthak.com aims to empower these businesses to thrive and grow. The application is built using HTML, CSS, and JavaScript to ensure cross-platform compatibility and responsiveness.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Chatbot Assistance:** Sarthak.com provides a user-friendly chatbot that offers real-time assistance and answers to financial queries. This chatbot streamlines communication and enhances user experience.
+- **Notifications:** The platform offers a notification system to keep users updated about the latest financial opportunities, trends, and news relevant to their businesses.
+- **Filters:** Users can leverage the filtering capabilities to narrow down investment options based on specific criteria, making the process of finding suitable investors and financial resources more efficient.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The following technologies were used to develop our project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- HTML
+- CSS
+- JavaScript
 
-### `npm run eject`
+## Target Audience
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Sarthak.com caters to a diverse audience, primarily focusing on two key segments:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Small Emerging Startups: Offering support to early-stage businesses looking for financial backing to fuel their growth and innovation.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- MNCs: Providing established multinational corporations with a resourceful platform to discover investment opportunities and simplify their financial processes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Unique Selling Points (USPs)
 
-## Learn More
+While not explicitly defined, Sarthak.com offers the following unique selling points:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Simplified Financial Process: Streamlining the financial journey for businesses, removing unnecessary complexities.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Real-time Chatbot Support: Ensuring instant access to assistance for financial inquiries.
 
-### Code Splitting
+- Customized Notifications: Keeping users informed about the financial landscape specific to their interests.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Getting Started
 
-### Analyzing the Bundle Size
+To get a copy of this project up and running on your local machine for development and testing purposes, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. **Clone the repository:**
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/Sahilvishwa2108/Code_Rebels.git
