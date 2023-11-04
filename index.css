@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: black;
-    color: white;
+    overflow-x: hidden;
 }
 /* designing nav-bar */
 .nav-bar{
@@ -33,6 +32,7 @@
     text-decoration: none;
     font-size: 1.25rem;
 }
+
 
 
 /* Styling for the "Who We Are" section */
@@ -67,16 +67,102 @@
 }
 
 
+/* cards */
+#section_5 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 24rem));
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+  }
+  
+  #section_5 > div {
+    /* border: 1px solid black; */
+    height: 15.5rem;
+    margin: 0.7rem 1rem;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  
+  #section_5 > div:first-child {
+    background: url("https://dpskidszone.org/bhopal/wp-content/uploads/2018/10/time-table.jpg")
+      no-repeat center center/cover;
+  }
+  #section_5 > div:nth-child(2) {
+    background: url("https://dpskidszone.org/bhopal/wp-content/uploads/2018/10/academic-calendar.jpg")
+      no-repeat center center/cover;
+  }
+  #section_5 > div:nth-child(3) {
+    background: url("https://dpskidszone.org/bhopal/wp-content/uploads/2018/10/extra-350x250.jpg")
+      no-repeat center center/cover;
+  }
+  #section_5 > div:nth-child(4) {
+    background: url("https://dpskidszone.org/bhopal/wp-content/uploads/2019/10/dpskidszone-bhopal.jpg")
+      no-repeat center center/cover;
+  }
+  #section_5 > div:nth-child(5) {
+    background: url("https://dpskidszone.org/bhopal/wp-content/uploads/2022/10/fee-structure-23-24.jpg")
+      no-repeat center center/cover;
+  }
+  #section_5 > div:last-child {
+    background: url("https://dpskidszone.org/bhopal/wp-content/uploads/2018/10/bus-service-small-350x250.jpg")
+      no-repeat center center/cover;
+  }
+  
+#section_5 > div > div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(69, 69, 183, 0.8);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    margin-top: 11.7rem;
+  }
+  
+  #section_5 > div:hover > div {
+    animation: section_5 0.3s forwards;
+  }
+  
+  @keyframes section_5 {
+    100% {
+      margin-top: 0;
+      padding: 3rem 2rem;
+    }
+  }
+  
+  #section_5 > div > div p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 1;
+  }
+  
+  #section_5 > div > div a {
+    color: yellow;
+    line-height: 4;
+    width: fit-content;
+  }
+  
+  #section_5 > div > div a:hover {
+    color: #fff;
+  }
+  
+
 
 /* designing footer */
 footer {
     /* position: absolute;
     bottom: 0; */
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
     background-color: #000;
     color: #fff; 
     padding: 2rem 0;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    
 }
 
 .footer-main {
@@ -86,7 +172,12 @@ footer {
     flex-wrap: wrap;
     padding: 2rem 0;
 }
-
+.footer-main li{
+    opacity: 0.7;
+}
+.footer-main li h3{
+    opacity: 1;
+}
 .left-foot {
     flex: 1;
     margin-right: 1rem; 
@@ -161,6 +252,46 @@ footer {
 .right-foot button:hover {
     background-color: #0056b3; 
 }
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.social-icons a{
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+.animate-character
+{
+   /* text-transform: uppercase; */
+  background-image: linear-gradient(
+    -25deg,
+    #6f5cb2 0%,
+    #795a99 19%,
+    #906047 47%,
+    #aca6a6 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+    display: inline-block;
+    font-size: 2.5rem;
+}
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
 
 /* Footer copyright text */
 .footer-down {
@@ -172,12 +303,11 @@ footer {
 /* slideshow */
 .slide-show-container{
     height: 30rem;
-    width: 99%;
-    max-width: 99%;
+    width: 100vw;
     overflow: hidden;
 }
 .slide-image{
-    border-radius: 2rem;
+    border-radius: 1rem;
     height: 30rem;
     width: 99%;
     object-fit: cover;
