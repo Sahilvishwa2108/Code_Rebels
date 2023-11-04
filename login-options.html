@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Login options</title>
+    <link rel="stylesheet" href="login-options.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <header>
         <div class="nav-bar">
             <div class="nav-logo">
-                <img src="Assets/main-logo.jpg" alt="nav-logo" height="50px">
+                <img src="Assets/nav-logo.jpg" alt="nav-logo" height="50px">
             </div>
             <div class="nav-items">
                 <ul>
@@ -24,59 +24,45 @@
             </div>
         </div>
     </header>
-    <div class="contact-container">
-        <div class="contact-image">
-            <img src="Assets/Sarthak.png" alt="sarthak-img">
-            <div class="home-image-text">
-                <a href="index.html">Home</a> / Contact
+    <main>
+        <section class="hero-section">
+            <div class="slide-show-container">
+                <img id="slide1" class="slide-image" src="Assets/slide1.jpg" alt="slide1">
+                <img id="slide2" class="slide-image" src="Assets/slide2.jpg" alt="slide2">
             </div>
-            <div class="contact-image-text hidden">Contact Us</div>
-        </div>
-    </div>
-    <section class="contact-form">
-     
-        <div class="contact-info">
-        <form action="submit_form.php" id="ft-form" method="POST">
-            <h2>Contact Us</h2><br>
-            <label for="name">Name:*</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:*</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit" id="submit-btn">Submit</button>
-        </form>
-        
-       </div>
-
-       <div class="social-handles">
-        
-            <h2>||Contact|| </h2>
-            <div class="email-handle">
-                <div class="email-logo">
-                    <img src="Assets/email-logo-png-us-7.png" alt="">
-                </div>Write us Email <br>
-                mailto:sarthak476@gmail.com
-            </div>        
-       
-       <div class="call-handle">
-        <div class="call-logo">
-            <img src="Assets/call-logo.png" alt="">
-           
-        </div> Have any question? <br>
-        +91 8662336503
-       </div>
-       <div class="social">
-        <a href="https://instagram.com/geeksspire"><i class="fa fa-instagram" aria-hidden="true"></i>
-        </a>
-        <a href="https://whatsapp.com/channel/0029VaAQ6BdIiRp0P0NbhF15"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/company/geeksspire/"><i class="fa fa-linkedin"aria-hidden="true"></i></a>
-    </div></div>
-    </section>
-    <script src="contact.js"></script>
+        </section>
+        <section id="#Services">
+            <h1 class="whoWeAre-Heading animate-character">Our Services</h1>
+            <div class="whoWeAre-container">
+                <div class="whoWeAre-image">
+                    <img src="Assets/services.png" alt="whoWeAre.png">
+                </div>
+                <div class="whoWeAre-info">
+                    <p class="whoWeAre-data">SARTHAK is a forward-thinking financial institution with a deep commitment
+                        to fostering the growth of small-scale industries and startups. We understand the challenges
+                        these businesses face when seeking initial investments, and we're here to change the game.</p>
+                    <button>Know more</button>
+                </div>
+            </div>
+        </section>
+        <section id="section_5">
+            <div>
+                <div>
+                    <p>Wide Network</p><a href="#">view</a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p>Highly Trusted</p><a href="#">view</a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p>Financial Process Simplifies</p><a href="#">view</a>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="footer-main">
             <div class="left-foot">
@@ -112,23 +98,32 @@
                     <button>Submit
                     </button>
                 </form>
-                <!-- <div class="social-icons">
+                <div class="social-icons">
                     <a href="https://instagram.com/geeksspire"><i
                             class="fa fa-instagram social-handles" aria-hidden="true"></i></a>
                     <a href="https://whatsapp.com/channel/0029VaAQ6BdIiRp0P0NbhF15"><i
                             class="fa fa-whatsapp social-handles" aria-hidden="true"></i></a>
                     <a href="https://www.linkedin.com/company/geeksspire/"><i
                             class="fa fa-linkedin social-handles" aria-hidden="true"></i></a>
-                </div> -->
+                </div>
             </div>
         </div>
         <div class="footer-down">
             <p>Copyright &copy; 2023 All Rights Reserved.</p>
         </div>
     </footer>
-    <div class="chatbot">
-        <img src="Assets/chatbot.png" alt="">
+    <div class="overlay" id="overlay">
+        <div class="login-options">
+            <button id="mncButton"><a href="Mnc.html" style="text-decoration: none; color: white;">Login as MNC</a></button>
+            <button id="startupButton"><a href="Small-startup.html" style="text-decoration: none; color: white;">Login as Small Startup</a></button>
+        </div>
     </div>
-</body>
 
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
 </html>

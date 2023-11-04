@@ -1,62 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="Login.css" />
-    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNC</title>
+    <link rel="stylesheet" href="startup.css">
 </head>
-
 <body>
     <header>
         <div class="nav-bar">
             <div class="nav-logo">
-                <img src="Assets/nav-logo.jpg" alt="nav-logo" height="50px">
+                <img src="Assets/main-logo.jpg" alt="nav-logo" height="50px">
             </div>
             <div class="nav-items">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">Who we are</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="#Services">Services</a></li>
-                    <li><button><a href="login.html">Login</a></button></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="#">Services</a>
+                            <div class="dropdown_items">
+                                <a href="MNC.html">for MNCs</a>
+                                <a href="startup.html">for small StartUps</a>
+                            </div>
+                        </div>
+                    </li>                      
+                    <li><button><a href="login-options.html">Login</a></button></li>
                 </ul>
             </div>
         </div>
     </header>
     <main>
-        <div class="container">
-            <div class="login-form">
-                <h2>LOGIN</h2>
-                <form action="">
-                    <div class="form-group">
-                        <label for="email">Email or Mobile:</label>
-                        <input type="email phone" id="email" name="email" placeholder="Enter E-mail or Mobile"
-                            required />
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" placeholder="Enter password" required />
-                    </div>
-                    <div class="form-options">
-                        <a href="#">Forgot Password?</a>
-                        <button class="login-btn" type="submit">Login</button>
-                    </div>
-                </form>
-                <div class="signup-link">
-                    Don't have an account?
-                    <a href="signup.html"><span id="element6"></span></a>
+        <section id="section_5">
+            <div>
+                <div>
+                    <p>Services We Offer</p><a href="#">view</a>
                 </div>
             </div>
-        </div>
+            <div>
+                <div>
+                    <p>One to One Interaction</p><a href="#">view</a>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="footer-main">
@@ -107,8 +94,5 @@
             <p>Copyright &copy; 2023 All Rights Reserved.</p>
         </div>
     </footer>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="login.js"></script>
 </body>
-
 </html>

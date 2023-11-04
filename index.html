@@ -11,20 +11,29 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
+    
 </head>
 
 <body>
     <header>
         <div class="nav-bar">
             <div class="nav-logo">
-                <img src="Assets/nav-logo.jpg" alt="nav-logo" height="50px">
+                <img src="Assets/main-logo.jpg" alt="nav-logo" height="50px">
             </div>
             <div class="nav-items">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">Who we are</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="#Services">Services</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a href="#">Services</a>
+                            <div class="dropdown_items">
+                                <a href="MNC.html">for MNCs</a>
+                                <a href="startup.html">for small StartUps</a>
+                            </div>
+                        </div>
+                    </li>                      
                     <li><button><a href="login.html">Login</a></button></li>
                 </ul>
             </div>
@@ -33,6 +42,7 @@
     <main>
         <section class="hero-section">
             <div class="slide-show-container">
+                <img id="slide3" class="slide-image" src="Assets/Sarthak.png" alt="slide3">
                 <img id="slide1" class="slide-image" src="Assets/slide1.jpg" alt="slide1">
                 <img id="slide2" class="slide-image" src="Assets/slide2.jpg" alt="slide2">
             </div>
@@ -118,6 +128,9 @@
             <p>Copyright &copy; 2023 All Rights Reserved.</p>
         </div>
     </footer>
+    <div class="chatbot">
+        <img src="Assets/chatbot.png" alt="">
+    </div>
     <script src="index.js"></script>
 </body>
 
