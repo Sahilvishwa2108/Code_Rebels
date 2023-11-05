@@ -1,4 +1,4 @@
-# Code Rebel Hackathon Project
+# Code Rebel Hackathon Project for Veersion Beta
 
 ![Code Rebel Logo](main-logo.jpg)
 
